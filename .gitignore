@@ -1,0 +1,85 @@
+# 🔹 Ignorar arquivos e pastas do Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# 🔹 Ignorar arquivos do Virtual Environment
+venv/
+.env
+*.env
+.envrc
+*.venv
+*.virtualenv
+
+# 🔹 Ignorar configurações e credenciais sensíveis
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+.DS_Store
+*.sublime-workspace
+
+# 🔹 Ignorar arquivos de pacotes Python instalados
+*.pip
+.Python
+python-version
+
+# 🔹 Ignorar configurações do editor e sistema operacional
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.orig
+*~
+
+# 🔹 Ignorar arquivos de migração gerados automaticamente (se necessário)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# 🔹 Ignorar arquivos do Celery (caso esteja usando)
+celerybeat-schedule
+
+# 🔹 Ignorar arquivos de cache do Django
+staticfiles/
+media/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 🔹 Ignorar arquivos do coverage e testes
+htmlcov/
+.coverage
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+hypothesis/
+pytest_cache/
+__pycache__/
+
+# 🔹 Ignorar arquivos de Docker (se estiver usando)
+docker-compose.override.yml
+*.dockerfile
+*.dockerignore
+
+# 🔹 Ignorar arquivos de logs e debug
+logs/
+*.log
+*.out
+*.err
+
+# 🔹 Ignorar arquivos de dependências (caso use Poetry)
+poetry.lock
+
+.vscode
